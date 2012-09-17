@@ -1,0 +1,84 @@
+@import "functions.less";
+@import "colors.less";
+
+body {
+	background-color: black;	
+	display: -webkit-box;
+	
+	#videoDiv {
+		position: absolute;
+		z-index: 10001;
+		background-color: @c-tan;
+		width: 1280px;
+		height: 720px;
+		margin-left: -2000px;
+		margin-top: 150px;
+		overflow: hidden;
+		.transition(all, 1s,cubic-bezier(0.175, 0.885, 0.320, 1.275));
+		.box-shadow;
+		.border-radius(5px);
+		&.visible {
+			margin-left: 0px;
+		}
+		.video {
+		}
+	}
+	
+	#wrapper {
+		margin-right: auto;
+  		margin-left: auto;
+  		width: 1280px;
+		.transition(opacity, 1s, ease-in-out);
+		&.greyed {
+			.opacity(0);
+		}
+		
+		#header {
+		
+		}
+		
+		#content {
+			#car {
+				position: absolute;
+				.transition;
+				&.start {
+					.position(557px,539px);
+				}
+				&.pos1 {
+					.position(547px,306px);
+				}
+				&.pos2 {
+					.position(589px,219px);
+				}
+				&.pos3 {
+					.position(519px,409px);
+				}
+				&.pos4 {
+					.position(408px,424px);
+				}
+				&.pos5 {
+					.position(317px,422px);
+				}
+				&.pos6 {
+					.position(396px,187px);
+				}
+				&.pos7 {
+					.position(288px,300px);
+				}
+				&.pos8 {
+					.position(168px,300px);
+				}
+			}
+			
+			#map {
+			}
+		}
+		
+		#footer {
+			height: 100px;
+			margin-top: -100px;
+			background-color : @c-pink;
+			.opacity(0.3);
+		}
+	}
+}

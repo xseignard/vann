@@ -1,0 +1,73 @@
+.position(@left, @top) {
+	left: @left;
+	top: @top;
+}
+
+.transition(@property: all, @duration: 2s, @function: ease-in-out) {
+	-webkit-transition: @property @duration @function;
+	-moz-transition: @property @duration @function;
+	-o-transition: @property @duration @function;
+	-ms-transition: @property @duration @function;
+	transition: @property @duration @function;
+}
+
+.transform(@transform) {
+	-webkit-transform: @transform;
+	-moz-transform: @transform;
+	-o-transform: @transform;
+	-ms-transform: @transform;
+	transform: @transform;
+}
+
+.transform(@transform1, @transform2) {
+	-webkit-transform: @transform1 @transform2;
+	-moz-transform: @transform1 @transform2;
+	-o-transform: @transform1 @transform2;
+	-ms-transform: @transform1 @transform2;
+	transform: @transform1 @transform2;
+}
+
+.border-radius(@radius: 8px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-o-border-radius: @radius;
+	-ms-border-radius: @radius;
+	border-radius:@radius;
+}
+
+.box-shadow(@shadow-x: 5px, @shadow-y: 5px, @shadow-radius: 5px, @shadow-color: black) {
+	-webkit-box-shadow: @shadow-x @shadow-y @shadow-radius @shadow-color;
+	-moz-box-shadow: @shadow-x @shadow-y @shadow-radius @shadow-color;
+	-o-box-shadow: @shadow-x @shadow-y @shadow-radius @shadow-color;
+	-ms-box-shadow: @shadow-x @shadow-y @shadow-radius @shadow-color;
+	box-shadow: @shadow-x @shadow-y @shadow-radius @shadow-color;
+}
+
+.opacity(@value) {
+	opacity: @value;
+}
+/*
+.frame(@pct, @value) {
+	@pct { @value }
+}
+
+.keyframes(@name, @frames) {
+	@-webkit-keyframes @name {@frames}
+	@-moz-keyframes @name {@frames}
+	@-ms-keyframes @name {@frames}
+	@-o-keyframes @name {@frames}
+	@keyframes @name {@frames}
+}
+
+.animation(@name, @duration, @count, @timing-function: ease-in) {
+	
+}
+
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1.0); }
+    30% { -webkit-transform: scale(1.1); }
+}
+
+.pulse {
+    -webkit-animation: pulse 1000ms infinite ease-in;
+}*/
