@@ -172,7 +172,6 @@ function onReady(evt) {
  * @param evt the event sent when the state of a button has changed
  */
 function onChange(evt) {
-	console.log("onchange");
 	// get the pin number and the value
 	var pin = evt.target.number;
 	var value = evt.target.value;
