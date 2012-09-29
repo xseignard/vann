@@ -21,7 +21,7 @@ var videoMap =
  {'pos' : 'pos5' , 'video' : 'odezenne'},
  {'pos' : 'pos6' , 'video' : 'woodkid'},
  {'pos' : 'pos7' , 'video' : 'natalia'},
- {'pos' : 'pos8' , 'video' : 'oddfuture'},
+ {'pos' : 'pos8' , 'video' : 'oddfuture'}
 ];
 
 /**
@@ -40,9 +40,9 @@ var centreToPrison =
 {
 'end': 'prison',
 'moves': [
-	 {'top':'25.5%', 'left':'46.75%', 'duration':'1.5'},
-	 {'top':'15.65%', 'left':'46.95%', 'duration':'1.5'},
-	 {'top':'15%', 'left':'47.3%', 'duration':'0.16'}
+    {'top':'25.5%', 'left':'46.75%', 'duration':'1.5'},
+	{'top':'15.65%', 'left':'46.95%', 'duration':'1.5'},
+	{'top':'15%', 'left':'47.3%', 'duration':'0.16'}
     ]
 };
 
@@ -53,9 +53,9 @@ var prisonToCentre =
 {
 'end': 'centre',
 'moves': [
-	 {'top':'15.65%', 'left':'46.95%', 'duration':'0.16'},
-	 {'top':'25.5%', 'left':'46.75%', 'duration':'1.5'},
-	 {'top':'31.3%', 'left':'39.7%', 'duration':'1.5'}
+    {'top':'15.65%', 'left':'46.95%', 'duration':'0.16'},
+    {'top':'25.5%', 'left':'46.75%', 'duration':'1.5'},
+    {'top':'31.3%', 'left':'39.7%', 'duration':'1.5'}
     ]
 };
 
@@ -66,8 +66,8 @@ var prisonToCimetiere =
 {
 'end': 'cimetiere',
 'moves': [
-	 {'top':'13.5%', 'left':'41.6%', 'duration':'1'},
-	 {'top':'10.7%', 'left':'46.1%', 'duration':'1'}
+    {'top':'13.5%', 'left':'41.6%', 'duration':'1'},
+    {'top':'10.7%', 'left':'46.1%', 'duration':'1'}
     ]
 };
 
@@ -78,8 +78,8 @@ var cimetiereToPrison =
 {
 'end': 'prison',
 'moves': [
-	 {'top':'13.5%', 'left':'41.6%', 'duration':'1'},
-	 {'top':'15%', 'left':'47.3%', 'duration':'1'}	 
+	{'top':'13.5%', 'left':'41.6%', 'duration':'1'},
+    {'top':'15%', 'left':'47.3%', 'duration':'1'}
     ]
 };
 
@@ -90,9 +90,9 @@ var centreToBoucherie =
 {
 'end': 'boucherie',
 'moves': [
-	 {'top':'27.55%', 'left':'32.25%', 'duration':'1.3'},
-	 {'top':'23.25%', 'left':'32.05%', 'duration':'0.75'},
-	 {'top':'22.8%', 'left':'31.2%', 'duration':'0.16'}
+	{'top':'27.55%', 'left':'32.25%', 'duration':'1.3'},
+	{'top':'23.25%', 'left':'32.05%', 'duration':'0.75'},
+	{'top':'22.8%', 'left':'31.2%', 'duration':'0.16'}
     ]
 };
 
@@ -103,10 +103,10 @@ var boucherieToCentre =
 {
 'end': 'centre',
 'moves': [
-	 {'top':'23.25%', 'left':'32.05%', 'duration':'0.16'},
-	 {'top':'27.55%', 'left':'32.25%', 'duration':'0.75'},
-	 {'top':'31.3%', 'left':'39.7%', 'duration':'1.3'}
-	 ]
+	{'top':'23.25%', 'left':'32.05%', 'duration':'0.16'},
+	{'top':'27.55%', 'left':'32.25%', 'duration':'0.75'},
+	{'top':'31.3%', 'left':'39.7%', 'duration':'1.3'}
+	]
 };
 
 /**
@@ -116,7 +116,7 @@ var boucherieToTour =
 {
 'end': 'tour',
 'moves': [
-	 {'top':'20.1%', 'left':'36.5%', 'duration':'1'},
+	{'top':'20.1%', 'left':'36.5%', 'duration':'1'}
     ]
 };
 
@@ -127,7 +127,7 @@ var tourToBoucherie =
 {
 'end': 'boucherie',
 'moves': [
-	 {'top':'22.8%', 'left':'31.2%', 'duration':'1'}
+	{'top':'22.8%', 'left':'31.2%', 'duration':'1'}
     ]
 };
 
@@ -138,9 +138,9 @@ var centreToMur =
 {
 'end': 'mur',
 'moves': [
-	 {'top':'33.2%', 'left':'37.3%', 'duration':'0.5'},
-	 {'top':'28.2%', 'left':'36.3%', 'duration':'0.3'},
-	 {'top':'30.7%', 'left':'32.8%', 'duration':'0.8'}
+	{'top':'33.2%', 'left':'37.3%', 'duration':'0.5'},
+	{'top':'28.2%', 'left':'36.3%', 'duration':'0.3'},
+	{'top':'30.7%', 'left':'32.8%', 'duration':'0.8'}
     ]
 };
 
@@ -151,9 +151,9 @@ var murToCentre =
 {
 'end': 'centre',
 'moves': [
-	 {'top':'28.2%', 'left':'36.3%', 'duration':'0.8'},
-	 {'top':'33.2%', 'left':'37.3%', 'duration':'0.3'},
-	 {'top':'31.3%', 'left':'39.7%', 'duration':'0.5'}
+	{'top':'28.2%', 'left':'36.3%', 'duration':'0.8'},
+	{'top':'33.2%', 'left':'37.3%', 'duration':'0.3'},
+	{'top':'31.3%', 'left':'39.7%', 'duration':'0.5'}
     ]
 };
 
@@ -164,9 +164,9 @@ var murToHippodrome =
 {
 'end': 'hippodrome',
 'moves': [
-	 {'top':'32.9%', 'left':'30.1%', 'duration':'0.65'},
-	 {'top':'43.5%', 'left':'30.3%', 'duration':'1.5'},
-	 {'top':'44.5%', 'left':'29.6%', 'duration':'0.16'}
+	{'top':'32.9%', 'left':'30.1%', 'duration':'0.65'},
+	{'top':'43.5%', 'left':'30.3%', 'duration':'1.5'},
+	{'top':'44.5%', 'left':'29.6%', 'duration':'0.16'}
     ]
 };
 
@@ -177,9 +177,9 @@ var hippodromeToMur =
 {
 'end': 'mur',
 'moves': [
-	 {'top':'43.5%', 'left':'30.3%', 'duration':'0.16'},	 
-	 {'top':'32.9%', 'left':'30.1%', 'duration':'1.5'},
-	 {'top':'30.7%', 'left':'32.8%', 'duration':'0.65'}
+    {'top':'43.5%', 'left':'30.3%', 'duration':'0.16'},
+	{'top':'32.9%', 'left':'30.1%', 'duration':'1.5'},
+	{'top':'30.7%', 'left':'32.8%', 'duration':'0.65'}
     ]
 };
 
@@ -190,9 +190,9 @@ var centreToUsine =
 {
 'end': 'usine',
 'moves': [
-	 {'top':'34.6%', 'left':'45.9%', 'duration':'1'},
-	 {'top':'39.3%', 'left':'46%', 'duration':'0.5'},
-	 {'top':'41.9%', 'left':'50.1%', 'duration':'0.7'}
+	{'top':'34.6%', 'left':'45.9%', 'duration':'1'},
+	{'top':'39.3%', 'left':'46%', 'duration':'0.5'},
+	{'top':'41.9%', 'left':'50.1%', 'duration':'0.7'}
     ]
 };
 
@@ -203,9 +203,9 @@ var usineToCentre =
 {
 'end': 'centre',
 'moves': [
-	 {'top':'39.3%', 'left':'46%', 'duration':'0.7'},
-	 {'top':'34.6%', 'left':'45.9%', 'duration':'0.5'},
-	 {'top':'31.3%', 'left':'39.7%', 'duration':'1'}
+	{'top':'39.3%', 'left':'46%', 'duration':'0.7'},
+	{'top':'34.6%', 'left':'45.9%', 'duration':'0.5'},
+	{'top':'31.3%', 'left':'39.7%', 'duration':'1'}
 	]
 };
 
@@ -216,11 +216,11 @@ var usineToErdre =
 {
 'end': 'erdre',
 'moves': [
-	 {'top':'44.5%', 'left':'53.9%', 'duration':'0.7'},
-	 {'top':'28.2%', 'left':'55.2%', 'duration':'1'},
-	 {'top':'30.9%', 'left':'61.6%', 'duration':'1'},
-	 {'top':'47.9%', 'left':'60.8%', 'duration':'1.5'},
-	 {'top':'48.9%', 'left':'61.8%', 'duration':'0.16'}
+	{'top':'44.5%', 'left':'53.9%', 'duration':'0.7'},
+	{'top':'28.2%', 'left':'55.2%', 'duration':'1'},
+	{'top':'30.9%', 'left':'61.6%', 'duration':'1'},
+	{'top':'47.9%', 'left':'60.8%', 'duration':'1.5'},
+	{'top':'48.9%', 'left':'61.8%', 'duration':'0.16'}
     ]
 };
 
@@ -231,11 +231,11 @@ var erdreToUsine =
 {
 'end': 'usine',
 'moves': [
-	 {'top':'47.9%', 'left':'60.8%', 'duration':'0.16'},
-	 {'top':'30.9%', 'left':'61.6%', 'duration':'1.5'},
-	 {'top':'28.2%', 'left':'55.2%', 'duration':'1'},
-	 {'top':'44.5%', 'left':'53.9%', 'duration':'1'},
-	 {'top':'41.9%', 'left':'50.1%', 'duration':'0.7'}	 
+	{'top':'47.9%', 'left':'60.8%', 'duration':'0.16'},
+	{'top':'30.9%', 'left':'61.6%', 'duration':'1.5'},
+	{'top':'28.2%', 'left':'55.2%', 'duration':'1'},
+	{'top':'44.5%', 'left':'53.9%', 'duration':'1'},
+	{'top':'41.9%', 'left':'50.1%', 'duration':'0.7'}
     ]
 };
 
@@ -270,9 +270,14 @@ var south =
  {'src':'tour', 'target':tourToBoucherie}
 ];
 
+
+/**
+ * Handles the move of the marker
+ * @param json the json data about the move to handle
+ */
 function move(json) {
 	// the timeline handling the move
-	var tl = new TimelineMax();//{onComplete:move, onCompleteParams:[]});	
+	var tl = new TimelineMax({onComplete:showPopup, onCompleteParams:[]});	
 	tl.pause();
 	// constructs the move
 	$.each(json.moves, function() {
@@ -289,20 +294,14 @@ function move(json) {
 	tl.play();
 }
 
+
 /**
- * Handle transition end event sent when the point has finished to move
+ * Shows the popup when the move is finsihed
  */
-function transitionEnd() {
-	$("#car").bind("webkitTransitionEnd otransitionend transitionend msTransitionEnd", function(){
-		if (transEndToHandle && $("#car").attr('class') != "start") {  
-			$("#videoDiv").addClass("visible");
-			insertVideo($("#car").attr('class'));
-			transEndToHandle = false;
-			$("#wrapper").addClass("greyed");
-			setTimeout(function(){$("#video")[0].play()},800);
-		}
-	});
-}
+ function showPopup() {
+    TweenMax.to($('#popup'), 2, {css:{marginLeft:'20%'}, ease:Back.easeOut});
+ }
+
 
 /**
  * Insert the right video in the pop up
